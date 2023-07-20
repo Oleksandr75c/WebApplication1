@@ -8,7 +8,7 @@ namespace WebApi1
     [Route("[controller]")]
     public class CarController : Controller
     {
-       List<Car> cars = new List<Car>
+       public List<Car> cars = new List<Car>
         {   new Car ( "Volksvagen", "Eos", "cabrio", 211, 2009 ),
             new Car ("Suzuki","GrandVitara","SUV", 149, 2007 ),
             new Car ("Vaz","2101","sedan", 39, 1975 ),
@@ -23,6 +23,7 @@ namespace WebApi1
             {
                 manufacturer = cars[index].manufacturer,
                 model = cars[index].model,
+
                 type = cars[index].type,
                 yearManufacture = cars[index].yearManufacture,
                 powerEngine = cars[index].powerEngine
