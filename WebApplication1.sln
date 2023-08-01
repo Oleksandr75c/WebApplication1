@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pizza", "Pizza\Pizza.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework3", "Homework3\Homework3.csproj", "{6F4A8ED3-6240-4687-8BA1-EFEF711E0445}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW5", "HW5\HW5.csproj", "{0528C4DA-D498-49B8-813E-7F095075948E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{6F4A8ED3-6240-4687-8BA1-EFEF711E0445}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F4A8ED3-6240-4687-8BA1-EFEF711E0445}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F4A8ED3-6240-4687-8BA1-EFEF711E0445}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0528C4DA-D498-49B8-813E-7F095075948E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0528C4DA-D498-49B8-813E-7F095075948E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0528C4DA-D498-49B8-813E-7F095075948E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0528C4DA-D498-49B8-813E-7F095075948E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
